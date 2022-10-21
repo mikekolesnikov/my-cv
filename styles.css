@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+    color: #0f141e;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.main {
+    text-align: center;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0);
+}
+
+.contact {
+    /* border-color: darkred; */
+    font-style: italic;
+    /* background: rebeccapurple; */
+    /* border: 5px solid; */
+
+}
+.table {
+   border: #111722;
+    border-style: groove;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+.table td {
+    margin-bottom: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+
+.portfolio {
+    list-style: square;
+   text-align: center;
+   width: 720px;
+   margin: auto;
+}
